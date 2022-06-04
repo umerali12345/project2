@@ -1,0 +1,222 @@
+html {
+    background-image: linear-gradient(#FC5E55 ,#FA4083
+    );
+}
+
+body{
+    background-image: url(images/image-lion-background.png);
+    background-repeat: no-repeat;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.125rem;
+    color: #ffffff;
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+
+
+
+.container{
+    width: 1024px;
+    min-height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header {
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;  
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid lightgrey;
+
+}
+
+main{
+    min-height:300px;
+    display: flex;
+    align-items: center;
+}
+
+.main2 {
+     min-height: 300px;
+     padding-top: 50px;
+
+
+}
+.cards{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    
+}
+
+.card1{
+    background-size: cover;
+    min-height: 250px;
+    width: 30%;
+    background-image: url(images/image-background-card1.jpg);
+    background-position: bottom;
+    box-shadow: 0px 6px 15px black;
+    
+}  
+
+.card2{
+    background-size: cover;
+    width: 30%;
+    background-image: url(images/image-background-card2.jpg);
+    background-position: bottom;
+    min-height: 250px;
+    box-shadow: 0px 6px 15px black;
+}  
+
+.card3{
+    background-size: cover;
+    width: 30%;
+    background-image: url(images/image-background-card3.jpg);
+    background-position: bottom;
+    min-height: 250px;
+    box-shadow: 0px 6px 15px black;
+} 
+
+
+.card1, .card2, .card3{
+    padding: 30px 30px 20px 30px;
+    box-sizing: border-box;
+}
+
+
+.herobox{
+    flex:2
+
+}
+
+.herobox1{
+    flex:1;
+    
+    
+}
+.herobox p{
+    padding-right: 100px;
+}
+
+
+h1{
+    font-size: 3.25rem;
+    font-family: 'Playfair Display', serif;
+    margin-bottom: 1.5rem;
+    text-shadow: 2px 2px 2px black;
+}
+
+p{
+    line-height: 1.75rem;
+    margin: 0.5rem;
+    font-size: 1.125rem;
+
+}
+
+
+h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 2rem;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+
+i {
+    font-size: 80px;
+    
+}
+
+.cards p {
+    font-size: 0.875rem;
+    line-height: 1.2rem;
+    margin-top: 10px;
+}
+
+
+
+a{
+    color: white; 
+    text-decoration: none;
+
+}
+
+.mybutton{
+    background-color: white;
+    color: #FA4083;
+    font-family: 'Playfair Display', serif;
+    padding:11px 25px ;
+    box-shadow: 0px 3px 9px 0px black;
+}
+
+a.mybutton{
+    display: inline-block;
+    margin-top: 5px;
+    margin-bottom: 34px;
+    border-radius: 4px 6px 1px;
+}
+
+.navbutton {
+    border-style: solid;
+    border-width: 1px;
+    padding: 11px 25px;
+    font-family: 'Playfair Display', serif;
+    display: inline-block;
+    position: relative;
+}
+
+.reviews{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+
+a.mybutton:hover {
+    background-color: rgb(224, 160, 229);
+    transition-duration: 1s;
+    
+}
+
+
+
+.tbox{
+    border: 1px solid white;
+    width: 47%;
+    padding: 50px;
+    box-sizing: border-box;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+}
+
+.tbox :last-of-type{
+    font-size: 0.8rem;
+    padding-left: 30px;
+}
+
+.dropbox {
+    display: none;
+    position: absolute;
+    z-index: 1;
+    padding-top: 20px;
+    text-align: center;
+    margin-left: -30px;
+}
+
+.navbutton:hover .dropbox {
+    display: block;
+}
+
+.dropbox .navbutton{
+    width: 120px;
+    background-color: white;
+}
+
+.dropbox .navbutton a{
+    color: #FA4083;
+}
+
+
