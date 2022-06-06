@@ -59,11 +59,55 @@
       <p>Do you have any questions? Please do not hesitate to contact us directly. Our team will come back to you 
       within a matter of hours to help you.</p>
       
-      <form action="" method="post">
+      <form action="mail.php" method="post">
+       
+        <div class="inputwrapper">
+          <label for="name" class="newline">First Name</label>
+          <input type="text" name="name" id="name" placeholder="First Name">
+        </div>
 
-        <input type="text" name="name" id="name">
-        <input type="email" name="email" id="email">
-        <input type="submit" value="Submit">
+
+
+        <div class="inputwrapper">
+          <label for="email" class="newline">Email</label>
+          <input type="email" name="email" id="email" placeholder="roarbikes@gmai.com">
+        </div>
+        
+        <div class="inputwrapper">
+        
+          <textarea name="message" id="message" cols="100" rows="10" placeholder="Let Us Know What You Think"></textarea>
+        </div>
+
+        <div class="inputwrapper">
+
+          <input type="checkbox" name="email-sub" id="email-sub" checked value="yes-sign-me-up">
+          <label for="email-sub">Sign Me Up For Newsettler</label>
+          </div>
+          <div class="inputwrapper">
+           
+           <p>How Would You Like To Be Contacted?</p>
+            <input type="radio" name="contact-pref" id="phone" value="phone">
+           <label for="contact-pref" class="margin-right-a ">Phone</label>
+           <input type="radio" name="contact-pref" id="email2" value="email">
+           <label for="contact-pref">Email</label>
+
+          </div>
+
+          <div class="inputwrapper">
+            <select name="county" id="county">
+          
+              <option value="krdoisko" selected>pakistan</option>
+              <option value="krdoisko">africa</option>
+              <option value="krdoisko">india</option>
+              <option value="krdoisko">china</option>
+          
+              <input type="date" name="" id="">
+              <input type="color" name="" id="">
+            </select>
+          
+          </div>
+        
+        <input type="submit" value="Submit" class="mybutton">
 
 
 
